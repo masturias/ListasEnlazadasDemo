@@ -65,13 +65,13 @@ namespace EjemploListaEnlazada2
         
             if (string.IsNullOrWhiteSpace(this.nombre))
             {
-               Errores.Add("El nombre del estudiante es requerido");
+               Errores.Add("El nombre del estudiante es requerido.");
                 valido = false;
             }
 
             if (this.Punteo > 100)
             {
-                Errores.Add("El punteo del estudiante no puede ser mayor a 100");
+                Errores.Add("El punteo del estudiante no puede ser mayor a 100.");
                 valido = false;
             }
 
