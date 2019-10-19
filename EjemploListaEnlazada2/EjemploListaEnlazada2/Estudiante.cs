@@ -69,7 +69,7 @@ namespace EjemploListaEnlazada2
                 valido = false;
             }
 
-            if (this.Punteo > 100)
+            if (this.Punteos > 100)
             {
                 Errores.Add("El punteo del estudiante no puede ser mayor a 100.");
                 valido = false;
