@@ -15,7 +15,7 @@ namespace EjemploListaEnlazada2
         public List<string> Errores { get; private set; }
         public Estudiante()
         {
-            nombre = "Juan Perez";
+            nombre = "Nombre Propio";
             Punteo = 61;
             Carrera = "" ;
         }
