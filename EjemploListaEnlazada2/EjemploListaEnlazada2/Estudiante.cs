@@ -71,7 +71,7 @@ namespace EjemploListaEnlazada2
 
             if (this.Punteo > 100)
             {
-                Errores.Add("El estudiante no puede tener una nota mayor a 100.");
+                Errores.Add("El estudiante no puede tener una nota mayor a 100. Demo 4pm2");
                 valido = false;
             }
 
