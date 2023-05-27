@@ -16,7 +16,7 @@ namespace EjemploListaEnlazada2
         public Estudiante()
         {
             nombre = "Juan Pérez";
-            Punteo = 61;
+            Punteo = 80;
             Carrera = "Ingeniería en Sistemas" ;
         }
 
