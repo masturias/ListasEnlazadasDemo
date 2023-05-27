@@ -65,7 +65,7 @@ namespace EjemploListaEnlazada2
         
             if (string.IsNullOrWhiteSpace(this.nombre))
             {
-               Errores.Add("El nombre del estudiante es requerido.");
+               Errores.Add("El nombre del estudiante es requerido");
                 valido = false;
             }
 
