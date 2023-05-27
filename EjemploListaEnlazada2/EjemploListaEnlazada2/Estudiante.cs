@@ -15,9 +15,9 @@ namespace EjemploListaEnlazada2
         public List<string> Errores { get; private set; }
         public Estudiante()
         {
-            nombre = "Apellidos y Nombres Estudiante";
-            Punteo = 80;
-            Carrera = "" ;
+            nombre = "Juan Pérez";
+            Punteo = 61;
+            Carrera = "Ingeniería en Sistemas" ;
         }
 
         public Estudiante(string pNombre, int pPunteo, string pCarrera)
